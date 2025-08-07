@@ -16,7 +16,6 @@ bool is_palindrome(const char *str, int start, int end) {
 int main() {
     char str[100];
 
-    printf("Entrez une chaîne : ");
     scanf("%s", str);
 
     int length = strlen(str);

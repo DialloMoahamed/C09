@@ -23,10 +23,8 @@ int main() {
     char str[100];
     char substr[100];
 
-    printf("Chaîne principale : ");
     scanf("%s", str);
 
-    printf("Sous-chaîne à chercher : ");
     scanf("%s", substr);
 
     if (contains_substring(str, substr)) {

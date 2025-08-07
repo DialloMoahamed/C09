@@ -10,7 +10,6 @@ int sum_digits(int n) {
 int main() {
     int number;
 
-    printf("Entrez un nombre : ");
     scanf("%d", &number);
 
     int result = sum_digits(number);

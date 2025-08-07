@@ -13,12 +13,10 @@ void reverse_array(int arr[], int size) {
 int main() {
     int size;
 
-    printf("Entrez la taille du tableau : ");
     scanf("%d", &size);
 
     int arr[size];
     
-    printf("Entrez les éléments du tableau : ");
     for (int i = 0; i < size; i++) {
         scanf("%d", &arr[i]);
     }

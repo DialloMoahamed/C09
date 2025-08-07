@@ -15,7 +15,6 @@ int lcm(int a, int b) {
 int main() {
     int a, b;
 
-    printf("Entrez deux entiers : ");
     scanf("%d %d", &a, &b);
 
     printf("Le PPCM est : %d\n", lcm(a, b));
